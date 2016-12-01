@@ -1,0 +1,23 @@
+
+	<div class="gushu_wrapper" ng-controller="gushu">
+
+		<header>
+			<a href="javascript:;"></a>
+			<h2>谷薯类</h2>
+			<span></span>
+		</header>
+		<p class="search">
+			<input type="text" ng-model="searchValue"><span ng-click="goFoodGI()">取消</span>
+		</p>
+		<main>
+			<div class="box">
+				<div class="content">
+					<div class="specific">
+						<ul>
+							<li ng-repeat="v in searchData" ng-click="goFoodGI(v)"><a href="javascript:;">{{v}}</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>

@@ -1,0 +1,45 @@
+
+	<div class="team_wrapper" ng-controller="ctrl">
+		<header>
+			<a href="javascript:;"></a>
+			<h2>食物查询工具</h2>
+			<span></span>
+		</header>
+		<main>
+			<div class="box">
+				<a ui-sref="foodGI" ng-click="changeHighlight(0)" ng-class="{bg:arr[0]}">
+					<dl>
+						<dt><i class="fa fa-coffee"></i></dt>
+						<dd>食物GI表</dd>
+					</dl>
+				</a>
+				<a ui-sref="foodChoose" ng-click="changeHighlight(1)" ng-class="{bg:arr[1]}">
+					<dl>
+						<dt><i class="fa fa-cutlery"></i></dt>
+						<dd>食物交换份</dd>
+					</dl>
+				</a>
+				<a ui-sref="ingredient" ng-click="changeHighlight(2)" ng-class="{bg:arr[2]}">
+					<dl>
+						<dt><i class="fa fa-flask"></i></dt>
+						<dd>食物成分表</dd>
+					</dl>
+				</a>
+				<a ui-sref="energy" ng-click="changeHighlight(3)" ng-class="{bg:arr[3]}">
+					<dl>
+						<dt><i class="fa fa-bell-o"></i></dt>
+						<dd>常见活动能量消耗</dd>
+					</dl>
+				</a>
+				<a ui-sref="BMI" ng-click="changeHighlight(4)" ng-class="{bg:arr[4]}">
+					<dl>
+						<dt><i class="fa fa-sitemap"></i></dt>
+						<dd>BMI测试</dd>
+					</dl>
+				</a>
+				<a href="javascript:;">
+					
+				</a>
+			</div>
+		</main>
+	</div>

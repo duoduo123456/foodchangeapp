@@ -1,0 +1,14 @@
+{
+	"cereal":[
+		["小麦","xiaomai","xm"],
+		["小麦玉米粥","xiaomaiyumizhou","xmymz"],
+		["小麦面包","xiaomaimianbao","xmmb"],
+		["黑米","heimi","hm"],
+		["黑米粥","heimizhou","hmz"],
+		["黑麦","heimai","hm"],
+		["大麦","damai","dm"],
+		["大麦粥","damaizhou","dmz"],
+		["荞麦","qiaomai","qm"],
+		["面条","miantiao","mt"]
+	]
+}
